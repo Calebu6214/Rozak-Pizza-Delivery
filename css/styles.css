@@ -24,3 +24,19 @@ em{
     color:red;
     font-size: larger;
 }
+h2{
+    text-align: center;
+    color: white;
+}
+#menu1{
+    background-color: rgb(11, 63, 11);
+}
+#menu>div{
+    display: flex;
+    justify-content:space-around;
+    color: white;
+    font-size: larger;
+}
+#menu>div>p>img{
+    padding: 30px;
+}
