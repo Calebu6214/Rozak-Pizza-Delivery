@@ -12,3 +12,15 @@ body{
 #home>a:hover{
     color: rgb(12, 238, 12);
 }
+#headp{
+   text-align: center;
+   font-size: large;
+}
+h1{
+text-align: center;
+padding-top: 2%;
+}
+em{
+    color:red;
+    font-size: larger;
+}
