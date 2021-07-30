@@ -1,0 +1,14 @@
+body{
+    background-color: aquamarine;
+}
+#navbar{
+    margin-top: 2%;
+}
+#home>a{
+   color: white;
+   font-style: oblique;
+   font-size: x-large;
+}
+#home>a:hover{
+    color: rgb(12, 238, 12);
+}
