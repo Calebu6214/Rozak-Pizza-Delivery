@@ -40,3 +40,18 @@ h2{
 #menu>div>p>img{
     padding: 30px;
 }
+h3{
+    color:magenta;
+    font-family:cursive;
+    font-style: italic;
+}
+#orderpart{
+    margin-bottom: 3%;
+    margin-top: 2%;
+}
+#checkout{
+    padding-top: 1%;
+}
+.form-select {
+    color: rgb(1, 136, 1);
+}

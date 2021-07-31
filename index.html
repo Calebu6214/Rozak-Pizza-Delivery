@@ -35,6 +35,45 @@
                <p><img src="Assets/pizza4.jpg" width="170" height="200" alt=""> <br> Medium= KSH.800</p>
                <p><img src="Assets/pizza5.jpg"  width="170" height="200" alt=""> <br> Large= KSH.1000</p>
             </div>   
+         </div>
+      </div>
+      <div class="container" id="orderpart">
+          <h3>ORDER HERE</h3>
+        <div class="col-md-6">
+            <label for="size" class="form-label">Pizza size</label>
+            <select class="form-select form-select-lg mb-3" aria-label=".form-select-lg example" id="size">
+                <option selected>Select pizza size</option>
+                <option value="1">Small ksh.500</option>
+                <option value="2">Medium ksh.800</option>
+                <option value="3">Large ksh.1000</option>
+              </select>
+        </div>
+        <div class="col-md-6">
+            <label for="crust" class="form-label">Type of crust</label>
+            <select class="form-select form-select-lg mb-3" aria-label=".form-select-lg example" id="crust">
+                <option selected>Crust type</option>
+                <option value="1">Thin crust</option>
+                <option value="2">Flatbread</option>
+                <option value="3">Thick crust</option>
+              </select>
+        </div>
+        <div class="col-md-6">
+            <label for="topping" class="form-label">Pizza Toppings</label>
+            <select class="form-select form-select-lg mb-3" aria-label=".form-select-lg example" id="topping">
+                <option selected>Pizza Toppings</option>
+                <option value="1">Potato</option>
+                <option value="2">Pepperoni</option>
+                <option value="3">Cheese</option>
+                <option value="4">Chicken</option>
+              </select>
+        </div>
+        <div class="col-md-6">
+            <label for="number">No. of pizzas</label>
+            <input type="number" class="form-control" id="number" placeholder="Number of pizzas" min="1" required>
+        </div>
+        <div id="checkout">
+        <button type="button" class="btn btn-info btn-lg">Checkout</button>
+        </div>
       </div>
 
    <script src="js/script.js"></script>
