@@ -1,3 +1,8 @@
+// Business logic 
+
+
+
+// user interface logic
 $(document).ready(function(event){
     event.preventDefault()
 $("#checkout").click(function () {
@@ -8,7 +13,7 @@ $("#checkout").click(function () {
     if (size== '' || crust == '' ||topping == ''||number == '' ) {
         alert("Please check the missing field(s)");
     } else {
-        $("#list").append()
+        $("#list").append();
     }
 
     function resetFields() {
@@ -19,4 +24,11 @@ $("#checkout").click(function () {
     }
     resetFields();
 })
+});
+$(document).ready(function(event){
+    event.preventDefault();
+    $("#forhide").hide();
+    $("#fill").click(function(){
+        $("#forhide").show();
+    });
 });
