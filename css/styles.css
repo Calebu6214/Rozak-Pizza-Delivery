@@ -55,3 +55,9 @@ h3{
 .form-select {
     color: rgb(1, 136, 1);
 }
+#contact{
+    text-align: center;
+    background-color: rgb(13, 63, 13);
+    color: white;
+    font-size: x-large;
+}
