@@ -11,6 +11,9 @@ Website for ordering and delivering your favourite type of Pizza and size the cu
 .Host in github.
 
 ## BDD
+.On checkout the customers order is displayed with total price. <br>
+.Customer then decide if pick up or delivery which each choice has prompt to the customer. <br>
+.Dial fill delivery you get the form for your details then on submission <br>you are prompted the total price of your order and to be delivered to your location.
 
 ## Known Bugs
  .No Bugs
