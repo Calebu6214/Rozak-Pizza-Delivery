@@ -4,10 +4,10 @@
 Website for ordering and delivering your favourite type of Pizza and size the customers need which you get the price of your order.
 
 ## Setup/Installation Requirements
-.git fork/clone repository
-. git clone https://github.com/Calebu6214/Rozak-Pizza-Delivery.git
-.Open the folder with vscode.
-.Run locally wwith live sever.
+.git fork/clone repository <br>
+. git clone https://github.com/Calebu6214/Rozak-Pizza-Delivery.git <br>
+.Open the folder with vscode.<br>
+.Run locally wwith live sever.<br>
 .Host in github.
 
 ## BDD
