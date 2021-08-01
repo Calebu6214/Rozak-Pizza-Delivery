@@ -6,22 +6,23 @@ function yourPizza(sizes, crust, toppings,numpizza) {
   }
 $(document).ready(function(){
 $("#checkout").click(function () {
-    var sizevalue = $("#size").val();
-    var crustvalue= $("#crust").val();
-    var toppingvalue= $("#topping").val();
-    var numbervalue= $("#number").val();
-    if (sizevalue== '' || crustvalue == '' ||toppingvalue == ''||numbervalue == '' ) {
+    var size= $("#size").val();
+    var crust= $("#crust").val();
+    var topping= $("#topping").val();
+    var number= $("#number").val();
+    if (size== '' || crust == '' ||topping == ''||number == '' ) {
         alert("Please check the missing field(s)");
     } else {
         alert("now checkout your order");
     }
-
-
         $("#size").val("");
         $("#crust").val("");
         $("#topping").val("");
         $("#number").val("");
-    
+});
+$("#forhide").hide();
+$("#fill").click(function(){
+    $("#forhide").show();
 });
 });
 
