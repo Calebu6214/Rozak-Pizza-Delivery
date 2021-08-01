@@ -1,34 +1,29 @@
 // Business logic 
-
-
-
-// user interface logic
-$(document).ready(function(event){
-    event.preventDefault()
+function yourPizza(sizes, crust, toppings,numpizza) {
+    this.sizes = price1;
+    this.crust = price2;
+    this.toppings = price3;
+  }
+$(document).ready(function(){
 $("#checkout").click(function () {
-    var size = $("#size").val();
-    var crust= $("#crust").val();
-    var topping= $("#topping").val();
-    var number= $("#number").val();
-    if (size== '' || crust == '' ||topping == ''||number == '' ) {
+    var sizevalue = $("#size").val();
+    var crustvalue= $("#crust").val();
+    var toppingvalue= $("#topping").val();
+    var numbervalue= $("#number").val();
+    if (sizevalue== '' || crustvalue == '' ||toppingvalue == ''||numbervalue == '' ) {
         alert("Please check the missing field(s)");
     } else {
-        $("#list").append();
+        alert("now checkout your order");
     }
 
-    function resetFields() {
+
         $("#size").val("");
         $("#crust").val("");
         $("#topping").val("");
         $("#number").val("");
-    }
-    resetFields();
-})
+    
 });
-$(document).ready(function(event){
-    event.preventDefault();
-    $("#forhide").hide();
-    $("#fill").click(function(){
-        $("#forhide").show();
-    });
 });
+
+// user interface logic
+
