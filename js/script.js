@@ -80,9 +80,12 @@ let newOrder =  order( size, crust, topping, number, cost);
           + newOrder.total );
     }
     $("#pick").click(function () {
-        alert("Pick your pizza with this amount" + "" + newOrder.total);
+        alert("Pick your pizza with this amount=" + newOrder.total);
     });
 
+    $("#make").click(function () {
+        alert("Your order will be delivered at a fee of 200ksh to your location totalling=" + (newOrder.total + 200));
+    });
 
         $("#size").val("");
         $("#crust").val("");
